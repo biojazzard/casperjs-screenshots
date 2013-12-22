@@ -19,8 +19,9 @@ Edit settings.json as needed:
 
 <pre>
 {
-  "url2render": "http://example.com/",
-  "format": ".png",
+  "url2render": "http://n32.es",
+  "type": ".pdf",
+  "papersize": "A4",
   "viewport": [[320, 480], [480, 320], [960, 640], [640, 960], [1136, 960], [960, 1136], [1440, 900], [1920, 1080], [2048, 1536], [1536, 2048]]
 }
 </pre>
@@ -28,7 +29,10 @@ Edit settings.json as needed:
 ### Where
 
 + url2render: Screenshot this page.
-+ format: '.png'
++ format: '.png' or '.pdf'
++ papersize: only applicable when format is pdf. Admited values:
+    * Simple Values: 'A4', 'B6'
+    * Dimensions: '21cmx21cm', '4000ptx6000pt'
 + viewport: Array containing viewport sets: [width, height]
 
 Usage
