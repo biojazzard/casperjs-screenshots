@@ -28,7 +28,7 @@ Edit settings.json as needed:
 ### Where
 
 + url2render: Screenshot this page.
-+ format: 
++ format: '.png'
 + viewport: Array containing viewport sets: [width, height]
 
 Usage
