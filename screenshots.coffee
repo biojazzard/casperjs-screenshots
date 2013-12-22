@@ -52,7 +52,7 @@ if phantom.args.length is 0
   # Default Settings
   format = '.png'
   viewport = [[320, 480], [480, 320], [960, 640], [640, 960], [1136, 960], [960, 1136], [1440, 900], [1920, 1080], [2048, 1536], [1536, 2048]]
-  url2render = 'http://localhost/dropbox/n32.es/'
+  url2render = 'http://n32.es/'
 else 
   # Load setiings
   try
