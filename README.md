@@ -7,7 +7,7 @@ Install
 -------
 
 <pre>
-$ npm install async
+$ npm install async --save-dev
 </pre>
 
 ### Important
