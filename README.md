@@ -10,7 +10,11 @@ Install
 $ npm install async
 </pre>
 
-Please See [Note](1)
+### Important
+
+Edit screenshots.coffee you match your async.js absolte path
+
+Please See [Note][Note]
 
 Settings
 --------
@@ -59,7 +63,7 @@ $ casperjs --engine=slimerjs screenshots.coffee settings.json
 
 ### Note
 _____
-There seems to be a bug in slimerJS, no relative require calls to "async" where possible. Absolute paths must be added using.
+[Note]: There seems to be a bug in slimerJS, no relative require calls to "async" where possible. Absolute paths must be added using.
 Son this *exception* is been considered.
 
 <pre>
