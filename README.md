@@ -6,7 +6,7 @@ Script for having both PhantomJS &amp; SlimerJS in a responsive way.
 Usage
 -----
 
-Edit screenshots.json as needed.
+Edit settings.json as needed.
 
 Terminal
 
