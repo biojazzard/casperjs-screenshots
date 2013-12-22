@@ -32,13 +32,15 @@ casper.echo "Casper CLI passed args:"
 require("utils").dump casper.cli.args
 ###
 
+console.log phantom.args[3]
+
 platform = undefined
 
 if require.paths
   # Not working relative paths
   #require.paths.push('~/.npm/async/0.2.9/package/lib');
   # OK. Absolute path Please!
-  require.paths.push('/Users/tallerdelsoho/Dropbox/Sites/n32.es/site/templates/node_modules/async/lib');
+  require.paths.push('/Users/tallerdelsoho/Dropbox/Sites/github.com/casperjs-screenshots/node_modules/async/lib');
   platform = 'FF'
 else
   platform = 'Webkit'
@@ -46,7 +48,7 @@ else
 fs = require('fs');
 async = require('async')
 
-if phantom.args[3].length is 0
+if phantom.args.length is 0
   # Default Settings
   format = '.png'
   viewport = [[320, 480], [480, 320], [960, 640], [640, 960], [1136, 960], [960, 1136], [1440, 900], [1920, 1080], [2048, 1536], [1536, 2048]]

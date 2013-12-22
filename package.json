@@ -1,0 +1,19 @@
+{
+  "name": "app-bs",
+  "version": "0.1.2",
+  "description": "casperjs-screenshots",
+  "homepage": "http://tsoho.es/a",
+  "author": {
+    "name": "Alfredo Llanos | @biojazzard",
+    "url": "http://tsoho.es/a"
+  },
+  "licenses": [
+    {
+      "type": "Apache License 2.0"
+    }
+  ],
+  "namespace": "APPBIO",
+  "devDependencies": {
+    "async": "~0.2.9"
+  }
+}

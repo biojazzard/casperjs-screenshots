@@ -13,19 +13,19 @@ Terminal
 ** Both PhantomJS (Webkit) and SlimerJS (Firefox) screenshots **
 
 <pre>
-$ casperjs screenshots.coffee && casperjs --engine=slimerjs screenshots.coffee
+$ casperjs screenshots.coffee settings.json && casperjs --engine=slimerjs screenshots.coffee settings.json
 </pre>
 
 ** Both PhantomJS (Webkit) screenshots **
 
 <pre>
-$ casperjs screenshots.coffee screenshots.json
+$ casperjs screenshots.coffee settings.json
 </pre>
 
 ** SlimerJS (Firefox) screenshots **
 
 <pre>
-$ casperjs --engine=slimerjs screenshots.coffee screenshots.json
+$ casperjs --engine=slimerjs screenshots.coffee settings.json
 </pre>
 
 Thank You everyone.
